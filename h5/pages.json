@@ -1,0 +1,437 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "首页",
+				// "navigationBarBackgroundColor": "#E5EDF9",
+				// "navigationBarTextStyle": "black",
+
+				"navigationStyle": "custom",
+				"onReachBottomDistance": 50
+			}
+		},
+		
+		{
+			"path": "pages/figure/figure",
+			"style": {
+				// "navigationBarTitleText": "数字人",
+				// "navigationBarBackgroundColor": "#E5EDF9",
+				// "navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				// "navigationBarTitleText": "登录",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+			}
+		
+		},
+		{
+			"path": "pages/user/info/info",
+			"style": {
+				// "navigationBarTitleText": "个人信息",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+			}
+		
+		},
+		{
+			"path": "pages/notice/notice",
+			"style": {
+				// "navigationBarTitleText": "公告",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		
+		},
+		{
+			"path": "pages/notice/notice_detail",
+			"style": {
+				// "navigationBarTitleText": "公告详情",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		
+		},
+		{
+			"path": "pages/user/order/order",
+			"style": {
+				// "navigationBarTitleText": "订单记录",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/order/order_detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/agree/agree",
+			"style": {
+				// "navigationBarTitleText": "",
+				// "enablePullDownRefresh": false
+				"navigationStyle": "custom"
+			}
+		
+		},
+		{
+			"path": "pages/figure/video",
+			"style": {
+				// "navigationBarTitleText": "视频",
+				// "navigationBarBackgroundColor": "#E5EDF9",
+				// "navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+		
+			}
+		},
+		{
+			"path": "pages/figure/figure_voice",
+			"style": {
+				// "navigationBarTitleText": "定制数字人形象",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		
+		},
+		{
+			"path": "pages/figure/voice_list",
+			"style": {
+				// "navigationBarTitleText": "素材预览",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		
+		},
+		{
+			"path": "pages/figure/figure_file",
+			"style": {
+				// "navigationBarTitleText": "定制信息审核",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		
+		},
+		{
+			"path": "pages/figure/figure_product",
+			"style": {
+				// "navigationBarTitleText": "定制列表",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		
+		},
+		// 定制数字人
+		{
+			"path": "pages/figure/created",
+			"style": {
+				// "navigationBarTitleText": "定制数字人形象",
+				// "navigationBarBackgroundColor": "#E5EDF9",
+				// "navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+		
+			}
+		},
+		{
+			"path": "pages/voice/voice",
+			"style": {
+				// "navigationBarTitleText": "声音",
+				// "navigationBarBackgroundColor": "#E5EDF9",
+				// "navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/voice/speech_history",
+			"style": {
+				// "navigationBarTitleText": "历史记录",
+				// "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/video/video",
+			"style": {
+				// "navigationBarTitleText": "视频",
+				// "navigationBarBackgroundColor": "#E5EDF9",
+				// "navigationBarTextStyle": "black"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				// "navigationBarTitleText": "用户",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path": "pages/user/set/set",
+			"style": {
+				// "navigationBarTitleText": "设置",
+				// "navigationBarBackgroundColor": "#fff",
+				// "navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/payCode",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "购买卡密",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/write",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "AI写稿",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/figure/figure_video",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "形象克隆",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/figure/figure_order",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "订单记录",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/user/count/count",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "我的权益",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/user/count/details",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "兑换记录",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/user/count/contDetails",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "兑换详情",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/login/sign_up",
+			"style" : 
+			{
+				// "navigationBarTitleText" : "注册",
+				// "enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		}
+	
+	],
+	"subPackages": [
+		{
+			"root": "childCont",
+			"pages": [{
+				"path" : "painting/painting",
+				"style" : 
+				{
+					// "navigationBarTitleText" : "AI背景",
+					// "enablePullDownRefresh" : false,
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "painting/painting_his",
+				"style" : 
+				{
+					// "navigationBarTitleText" : "历史记录",
+					// "enablePullDownRefresh" : false,
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path": "apply/apply_ask",
+				"style": {
+					// "navigationBarTitleText": "应用助理",
+					// "navigationBarBackgroundColor": "#fff",
+					// "navigationBarTextStyle": "black"
+					"navigationStyle": "custom"
+				}
+			
+			},
+			{
+				"path": "answer/answer",
+				"style": {
+					// "navigationBarTitleText": "问题反馈",
+					// "navigationBarBackgroundColor": "#fff",
+					// "navigationBarTextStyle": "black",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "clone/voice_clone",
+				"style" : 
+				{
+					// "navigationBarTitleText" : "声音克隆",
+					// "enablePullDownRefresh" : false,
+					// "navigationBarBackgroundColor": "#fff",
+					// "navigationBarTextStyle": "black",
+					"navigationStyle": "custom"
+				}
+			},
+			
+			{
+				"path" : "clone/copy_voice",
+				"style" : 
+				{
+					// "navigationBarTitleText" : "声音合成",
+					// "enablePullDownRefresh" : false,
+					// "navigationBarBackgroundColor": "#fff",
+					// "navigationBarTextStyle": "black",
+					"navigationStyle": "custom"
+				}
+			},
+			
+			{
+				"path" : "clone/my_voice",
+				"style" : 
+				{
+					// "navigationBarTitleText" : "我的声音",
+					// "enablePullDownRefresh" : false,
+					// "navigationBarBackgroundColor": "#fff",
+					// "navigationBarTextStyle": "black",
+					"navigationStyle": "custom"
+				}
+			},
+			
+			{
+				"path" : "clone/clone_history",
+				"style" : 
+				{
+					// "navigationBarTitleText" : "历史记录",
+					// "enablePullDownRefresh" : false,
+					// "navigationBarBackgroundColor": "#fff",
+					// "navigationBarTextStyle": "black",
+					"navigationStyle": "custom"
+				}
+			},
+			
+			{
+				"path" : "clone/clone_qs",
+				"style" : 
+				{
+					// "navigationBarTitleText" : "录音规范",
+					// "enablePullDownRefresh" : false,
+					// "navigationBarBackgroundColor": "#fff",
+					// "navigationBarTextStyle": "black",
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "clone/pay_clone",
+				"style" : 
+				{
+					// "navigationBarTitleText" : "声音克隆",
+					// "enablePullDownRefresh" : false,
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path" : "h5Link/h5Link",
+				"style" : 
+				{
+					"navigationBarTitleText" : "实名认证",
+					"enablePullDownRefresh" : false
+				}
+			}
+				
+			]
+		}
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "短视频数字人平台",
+		"navigationBarBackgroundColor": "#F6F8Fb",
+		"backgroundColor": "#F6F8Fb"
+	},
+	"tabBar": {
+		"color": "#131D34",
+		"selectedColor": "#1F64FF",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/nav/duihua1.png",
+				"selectedIconPath": "static/nav/duihua.png"
+			},
+			{
+				"pagePath": "pages/figure/figure",
+				"text": "数字人",
+				"iconPath": "static/nav/huihua1.png",
+				"selectedIconPath": "static/nav/huihua.png"
+			},
+			{
+				"pagePath": "pages/voice/voice",
+				"text": "声音",
+				"iconPath": "static/nav/yingyong1.png",
+				"selectedIconPath": "static/nav/yingyong.png"
+			},
+			{
+				"pagePath": "pages/video/video",
+				"text": "视频",
+				"iconPath": "static/nav/shouye1.png",
+				"selectedIconPath": "static/nav/shouye.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/nav/user1.png",
+				"selectedIconPath": "static/nav/user.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

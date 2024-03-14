@@ -1,0 +1,23 @@
+   <html lang="zh-CN">
+       <head>
+           <meta charset="utf-8">
+           <meta http-equiv="X-UA-Compatible" content="IE=edge">
+           <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+           <title>
+               <%= htmlWebpackPlugin.options.title %>
+           </title>
+           <script>
+               document.addEventListener('DOMContentLoaded', function() {
+                   document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+               })
+           </script>
+           <link rel="stylesheet" href="<%= BASE_URL %>static/index.css" />
+           <link rel="icon" href="https://umi-intelligence.oss-cn-shenzhen.aliyuncs.com/xcx/6512612c-0737-4343-806d-7eda4723a3e6.jpg" /> 
+       </head>
+       <body>
+           <noscript>
+               <strong>Please enable JavaScript to continue.</strong>
+           </noscript>
+           <div id="app"></div>
+       </body>
+   </html>
